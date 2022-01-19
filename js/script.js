@@ -17,10 +17,8 @@ let gameThreeCat = document.querySelector('#game_three');
 
 gamesCategory.forEach((cat)=>{
     cat.addEventListener('click', ()=>{
-        console.log(cat)
         if(cat.classList.contains('gameone'))
         {
-            console.log('gameone')
             gameOneCat.style.display = 'flex';
             gameTwoCat.style.display = 'none';
             gameThreeCat.style.display = 'none';
@@ -29,7 +27,6 @@ gamesCategory.forEach((cat)=>{
         }
         if(cat.classList.contains('gametwo'))
         {
-            console.log('gametwo')
             gameOneCat.style.display = 'none';
             gameTwoCat.style.display = 'grid';
             gameThreeCat.style.display = 'none';
@@ -38,7 +35,6 @@ gamesCategory.forEach((cat)=>{
         }
         if(cat.classList.contains('gamethree'))
         {
-            console.log('gameone')
             gameOneCat.style.display = 'none';
             gameTwoCat.style.display = 'none';
             gameThreeCat.style.display = 'none';
