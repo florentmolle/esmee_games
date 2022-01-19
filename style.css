@@ -60,7 +60,7 @@ section{
 /*Game One*/
 #game_one{
     width: 100%;
-    display: none;/*flex*/
+    display: flex;/*flex*/
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -80,7 +80,7 @@ section{
 }
 /*Game Two*/
 #game_two{
-    display: grid;/*grid*/
+    display: none;/*grid*/
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
     row-gap: 1rem;
